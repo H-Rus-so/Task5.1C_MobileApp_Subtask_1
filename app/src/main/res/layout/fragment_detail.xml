@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout file for the DetailFragment screen -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- This ImageView shows the full-size image of the news story that was tapped -->
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/news_image" />
+
+    <!-- This TextView displays the full description of the news story -->
+    <TextView
+        android:id="@+id/detailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:text="Description goes here…" />
+
+    <!-- This TextView acts like a small header for the related news section -->
+    <TextView
+        android:id="@+id/tvRelated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Related News"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- This RecyclerView will show the list of related news items vertically below the description -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRelatedNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="scroll_left">Scroll left</string>
+    <string name="scroll_right">Scroll right</string>
+    <string name="top_story_image">Top story image</string>
+    <string name="news_image">News image</string>
+    <string name="news_header">NEWS</string>
+    <string name="top_stories_header">Top Stories</string>
+    <string name="news_description">Brief description goes here</string>
+    <string name="news_title">News Title</string>
+    <string name="storyA">City on Edge After Major Storm: A powerful storm swept through the city overnight, follow to look at the damage and what’s next for residents.</string>
+    <string name="storyB">New Tech Promises Faster Internet: A breakthrough in technology could change the way we connect online, making speeds faster and more reliable.</string>
+    <string name="storyC">Local Sports Team Makes Finals: The home team clinched a huge win, and all eyes are now on their upcoming championship match.</string>
+    <string name="storyD">Government Announces New Policies: Major changes have been introduced, and we break down what they could mean for everyday life.</string>
+    <string name="storyE">Music Festival Draws Record Crowds: This year’s biggest music event brought in record numbers, and the energy was unforgettable.</string>
+    <string name="news9">Catch all the latest headlines and breaking stories straight from 9NEWS.</string>
+    <string name="news7">Stay in the loop with fast, reliable updates from 7NEWS covering local and world events.</string>
+    <string name="abcnews">Get top headlines and in-depth reporting on everything from major world events to local stories.</string>
+    <string name="agenews">Thoughtful reporting and detailed stories from The Age, focusing on the issues that matter most.</string>
+    <string name="skynews">Stay ahead with the latest breaking news and live reports from Sky News.</string>
+
+</resources>

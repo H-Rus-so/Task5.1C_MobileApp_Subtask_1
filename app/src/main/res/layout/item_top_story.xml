@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout file for a single top story item inside the horizontal RecyclerView -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    android:padding="4dp">
+
+    <!-- This ImageView will show the image for the top story -->
+    <ImageView
+        android:id="@+id/imageTopStory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/top_story_image"/>
+
+</FrameLayout>
